@@ -1,0 +1,45 @@
+
+
+.one p {
+    color: white;
+    font-family: cursive;
+    font-size: 120px;
+    margin-left: 20px;    
+}
+
+.one p span {
+    color: blueviolet;
+    font-family: cursive;
+    font-size: 120px;   
+}
+
+.two p {
+    color: white;
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+}
+
+.three p {
+    font-family: cursive;
+    text-decoration: underline;
+    font-size: 30px;
+    color: rgb(77, 14, 136);
+    text-align: right;
+    margin-right: 20px;
+}
+
+.one {
+    background-color: black;
+    padding: 5px;
+}
+
+.two {
+    background-color: blueviolet;
+    padding: 5px;
+}
+
+.three {
+    background-color: aqua;
+    padding: 5px;
+}
