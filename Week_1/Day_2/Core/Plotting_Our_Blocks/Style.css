@@ -1,0 +1,66 @@
+.container{
+    width: 950px;
+    height: 600px;
+    background-color: silver;  
+    padding: 10px;  
+}
+
+.top {
+    background-color: green;
+    width: 950px;
+    height: 150px;
+    
+}
+.bottom {
+    background-color: blueviolet;
+    width: 950px;
+    height: 440px;
+    margin-top: 10px;
+    
+
+}
+
+
+
+div.red, div.blue {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.blue {
+    background-color: blue;
+    width: 220px;
+    height: 360px; 
+}
+
+.red{
+    background-color: red;
+    width:720px;
+    height: 440px;  
+    margin-left: 6px;
+}
+
+.yellow {
+    margin-top: 2%;
+    width: 90%;
+    height: 45%;
+    margin-left: 5px;
+
+}
+
+.bloc {
+    background-color:yellow;
+    width: 190px;
+    height: 190px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.purple {
+    background-color: purple;
+    margin-top: 2%;
+    width: 601px;
+    height: 45%;
+    margin-left: 14px;
+}
+
