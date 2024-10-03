@@ -1,0 +1,51 @@
+.container {
+    background-color: rgb(212, 212, 212);
+    padding: 80px 50px 80px 50px;
+    width: 720px;
+    height: 600px;
+
+
+    }
+
+    .top {
+    background-color: aqua;
+    width: 720px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    }
+
+    .middle { 
+    background-color: blueviolet;
+    width: 720px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+
+
+    
+
+
+    }
+
+    .bottom {
+    background-color: rgb(255, 209, 209);
+    width: 720px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+
+
+    }
+
+    .image {
+        width: 150px;
+        height: 150px;
+    }
+
