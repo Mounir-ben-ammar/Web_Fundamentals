@@ -1,0 +1,43 @@
+.search{
+    background-color: antiquewhite;
+    width: 100px;
+    height: 25px;
+    border: 1.5px solid rgb(49, 202, 158);
+    border-radius: 20px;  
+    display: flex;
+    justify-content: center;  
+    align-items: center;  
+    color: rgb(49, 202, 158);
+    font-weight: bold;
+}
+.plus {
+width: 25px;
+height: 25px;
+background-color: rgb(49, 202, 158);
+color: white;
+border-radius: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+font-weight: bold;
+}
+
+.create-acount {
+    width: 120px;
+    height: 30px;
+    background-color: #2B78E4;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px black;
+    box-shadow: 1px 1px 1px black;
+    margin-top: 15px;
+}
+.container{
+    height: 150px;
+    width: 150px;
+    padding-left: 50px;
+    padding-top: 50px;
+    vertical-align: ;
+}

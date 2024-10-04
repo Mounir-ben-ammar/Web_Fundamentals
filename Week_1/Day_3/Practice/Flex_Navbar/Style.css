@@ -1,0 +1,11 @@
+.nav {
+    background-color: rgb(61, 61, 61);
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links {
+    
+} 
