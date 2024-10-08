@@ -17,7 +17,9 @@ function removeButton(element){
 
 
 
-
+function Alert(){
+    alert('Ninja was liked')
+}
 
 
 
