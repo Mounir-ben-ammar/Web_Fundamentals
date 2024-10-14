@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="Style.css">
 </head>
 <body>
@@ -11,89 +12,150 @@
 
         <div class="navBarContainer">
             <div class="nav">
+
                 <div class="leftAlign">
-                    <h1 class="nav-title">Profile</h1>                
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#" class="active">My Profile</a></li>
-                    <li><a href="#">Find Connections</a></li>
+                    <h1 class="nav-title">Profile</h1> 
+                    <ul class="nav-links">               
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#" class="active">My Profile</a></li>
+                        <li><a href="#">Find Connections</a></li>
+                    </ul>
                 </div>    
                 
-                <li><button class="btn">Sign Out</button></li>
+                <ul>
+                    <div><button class="btn">Sign Out</button></div>
+                </ul>
                 
-        </div>
+            </div>
         </div>
 
-        <div class="webPage">
+        <div class="main">
             <div class="leftSide">
 
                 <div class="editCard">
-                    
-
                     <div class="top"></div>
-                    
-
-                    
                     <div class="bottom">
-
                         <div class="profil">
-                            
                             <img class="pic" src="icons/user-circle.png" alt="profile" width="80" height="80">
-                            
                         </div>
-
                         <p class="Name">Jane Doe</p>
-
                         <div class="location">
                             <img src="icons/map-marker.png" alt="Pointeur" height="20">
                             <p>Seattle</p>
                         </div>
-                            <div class="Description">
-                                <P> Developer | Enginear | Problem Solver <br>
-                                Master of Shadows and the Internet!</P>
+                        <div class="Description">
+                            <p> Developer | Engineer | Problem Solver <br>
+                            Master of Shadows and the Internet!</p>
                         </div>
-
-
                         <div class="editProfile">
-                            <img src="icons/gear.png" alt="Set" width="18">
-                            <a href="icons/gear.png">edit profile</a>
+                            <i class="fas fa-cog"></i> <!-- Icône d'engrenage -->
+                            <a href="#">edit profile</a>
                         </div>
-
                     </div>
-
                 </div>
 
-
-
-
                 <div class="education">
-                    <div class="header"><p class="headerText">Eduction</p></div>
-
+                    <div class="headerLS">
+                        <p class="headerText">Education</p>
+                    </div>
                     <div class="content">
                         <p class="line1"> Coding Dojo - Full Stack Bootcamp</p>
                         <p class="line2">Dec 2019 - Mar 2020</p>
-                        <p class="line3"> <br>Triple black bell in Python, MERN, and C#...</p>
+                        <p class="line3"><br>Triple black belt in Python, MERN, and C#...</p>
                     </div>
-
                 </div>
             </div>
 
             <div class="rightSide">
                 <div class="connectionRequestsBox">
-                    <div class="header2"></div>
-                    <div class="content"></div>
 
+                    <div class="header">
+                        <div class="number"> 
+                            <p>2</p>                            
+                        </div>
+                        <p class="headerText">Connection Requests</p>
+                    </div>
+
+                    <!--  chaque utilisateur dans une div  -->
+
+                    <div class="bottomRight">
+                        <div class="user">
+                            <div class="left">
+                                <div class="pic"> <img src="images/todd-s.jpg" alt="Todd E"></div>
+                                <div class="name"><h3>Todd E</h3></div>
+                            </div>
+                            <div class="actions">
+
+                                    <div class="fas fa-check"></div> 
+                                
+                                    <div class="fas fa-times"></div> 
+
+                            </div>
+                        </div>
+
+                        <div class="user">
+                            <div class="left">
+                                <div class="pic"> <img src="images/phil-s.jpg" alt="Phil K"></div>
+                                <div class="name"><h3>Phil K</h3></div>
+                            </div>
+                            <div class="actions">
+
+                                    <div class="fas fa-check"></div>              
+                                
+                                    <div class="fas fa-times"></div> 
+
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!--  cpartie basse du right side  -->
+
+
+
+                    
+                        </div>
+                
+                <div class="Your-Connections">
+                    <div class="header">
+                        <div class="number2"> 
+                            <p>500+</p>                            
+                        </div>
+                        <p class="headerText">Your Connections</p>
+                    </div>
+
+                    <!--  chaque utilisateur dans une div  -->
+
+                    <div class="bottomRight">
+                        <div class="user">
+                            <div class="left">
+                                <div class="pic"> <img src="images/adrien-s.jpg" alt="Todd E"></div>
+                                <div class="name"><h3>Adrien D</h3></div>
+                            </div>                 
+                        </div>
+
+                        <div class="user">
+                            <div class="left">
+                                <div class="pic"> <img src="images/anne-s.jpg" alt="Phil K"></div>
+                                <div class="name"><h3>Anne J</h3></div>
+                            </div>                       
+                        </div>
+                        <div class="user">
+                            <div class="left">
+                                <div class="pic"> <img src="images/alayne-s.jpg" alt="Todd E"></div>
+                                <div class="name"><h3>Aloyane T</h3></div>
+                            </div>                 
+                        </div>
+
+                        <div class="user">
+                            <div class="left">
+                                <div class="pic"> <img src="images/arry-s.jpg" alt="Phil K"></div>
+                                <div class="name"><h3>Arry Y</h3></div>
+                            </div>                       
+                        </div>        
+                    </div>
                 </div>
-
-
-                <div class="yourConnectionBox">
-                        
-                </div>
-
             </div>
-
-            
         </div>
-
-</div>
+    </div>
 </body>
 </html>
