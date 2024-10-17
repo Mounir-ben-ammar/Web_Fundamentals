@@ -4,3 +4,8 @@ function increaselikes(id){
 
 
 }
+
+
+function Alert(){
+    alert('Ninja was liked')
+}
